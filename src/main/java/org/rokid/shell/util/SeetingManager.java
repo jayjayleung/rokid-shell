@@ -3,8 +3,9 @@ package org.rokid.shell.util;
 import cn.hutool.setting.Setting;
 
 /**
- * @Author liangshijie
- * @Date 2024/4/15
+ * @Author: jayjay
+ * @Date: 2024/4/4
+ * @ClassName: SeetingManager
  * @Description:
  */
 public class SeetingManager {

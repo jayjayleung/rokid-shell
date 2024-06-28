@@ -16,9 +16,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author liangshijie
- * @Date 2024/4/2
- * @Description:
+ * @Author: jayjay
+ * @Date: 2024/4/4
+ * @ClassName: ApiUtil
+ * @Description: Api请求工具类
  */
 public class ApiUtil {
 

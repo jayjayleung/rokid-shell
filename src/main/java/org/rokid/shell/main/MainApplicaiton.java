@@ -25,14 +25,14 @@ public class MainApplicaiton {
 
     public static void main(String[] args) {
         try {
-                System.out.println("检查配置");
+                System.out.println("检查配置...");
                 Setting setting = SeetingManager.getSetting();
                 setting.getWithLog("articleId");
                 String interval = setting.getWithLog("interval");
                 setting.getWithLog("name");
                 setting.getWithLog("text");
                 setting.getWithLog("cookie");
-                System.out.println("配置没有缺失");
+                System.out.println("配置正常...");
                 sleepTime(3);
                 while (true) {
                     System.out.println("开始运行...");
