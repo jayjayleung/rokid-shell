@@ -71,11 +71,11 @@ public class MainApplicaiton {
         if (CollUtil.isEmpty(groups)) {
             return;
         }
-
+        //循环
         groups.stream().filter(group -> group.contains("article")).forEach(group -> {
             if (group.contains("article")) {
                 String articleId = setting.get(group, "articleId");
-                System.out.println("======================= "+articleId+" start =======================");
+                System.out.println("======================= " + articleId + " start =======================");
                 String text = setting.get(group, "text");
                 String imagePath = setting.get(group, "imagePath");
                 System.out.println("文章id:" + articleId);
@@ -109,14 +109,14 @@ public class MainApplicaiton {
                     }
                     System.out.println("开始添加评论...");
                     Map<String, Object> addParam = ApiUtil.getAddParam();
-                    addParam.put("postId",articleId);
-                    addParam.put("content",sb.toString());
+                    addParam.put("postId", articleId);
+                    addParam.put("content", sb.toString());
                     JSONObject add = ApiUtil.add(addParam);
                     if (add == null) {
                         System.out.println("评论失败");
                     }
                     System.out.println(add.getStr("msg"));
-                    System.out.println("======================= "+articleId+" end =======================");
+                    System.out.println("======================= " + articleId + " end =======================");
                 }
             }
         });
@@ -146,7 +146,7 @@ public class MainApplicaiton {
      * 是否有新的评论
      *
      * @param articleId 文章id
-     *                  是否有新的评论
+     * @return true 为有新的，false则无
      */
     public static boolean isNewComment(String articleId) {
         System.out.println("获取评论.....");
