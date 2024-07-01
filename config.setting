@@ -14,9 +14,6 @@ cookie=org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=zh-CN; i
 # rokid文章id
 articleId=1390
 
-# 评论类型 image:文本+图片，text:纯文本，html:富文本(自行复制或者写)
-type=image
-
 # 发布的文本
 text=JayJay+抽奖
 
