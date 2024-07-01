@@ -1,11 +1,21 @@
-# rokid文章id
-articleId=1390
-
 # 间隔(秒)多少运行一次
 interval=30
 
 # 名字跟论坛一样，判断是否有新的
 name=kleist
+
+
+# cookie
+cookie=org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=zh-CN; isCancel=true; headerIcon=http://s.rokidcdn.com/account_logo/7A1414DF1F21414A92E929BEAFAB6D60/1714103240258; userName=kleist; acw_tc=7b39758217197997648134616e877a88406bcd602f12344f4c150056012f9a; _clck=1jkw3an%7C2%7Cfn3%7C0%7C1561; mobile=15913213996; ROKID_ACCOUNT_SESSION=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50SWQiOiI3QTE0MTRERjFGMjE0MTRBOTJFOTI5QkVBRkFCNkQ2MCIsImlzcyI6ImF1dGgwIiwidHlwZSI6Im90aGVyIiwidGltZXN0YW1wIjoxNzE5Nzk5OTExODEwfQ.j6R0cZvNkXbKQ5pAyabfkB2j2p9O0yyaLs7WR0Kn1O4; account_id=ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmhZMk52ZFc1MFNXUWlPaUkzUVRFME1UUkVSakZHTWpFME1UUkJPVEpGT1RJNVFrVkJSa0ZDTmtRMk1DSXNJbWx6Y3lJNkltRjFkR2d3SWl3aWRIbHdaU0k2SW05MGFHVnlJaXdpZEdsdFpYTjBZVzF3SWpveE56RTVOems1T1RFeE9ERXdmUS5qNlIwY1p2TmtYYktRNXBBeWFiZmtCMmoycDlPMHl5YUxzN1dSMEtuMU80QUFBQkJCQ0NDb3RoZXI=; signature=tDua_bom_YOUK6nB24oRMG26Q975uh6G84ojgjRvlAA=; Hm_lvt_a1c983f89a92fe2c352a3ce5984a9d66=1719799911; _clsk=hm6y43%7C1719800882418%7C6%7C1%7Cr.clarity.ms%2Fcollect; Hm_lpvt_a1c983f89a92fe2c352a3ce5984a9d66=1719800886
+
+
+# 文章序号类推，默认为1，格式[article+序号]为一组
+[article1]
+# rokid文章id
+articleId=1390
+
+# 评论类型 image:文本+图片，text:纯文本，html:富文本(自行复制或者写)
+type=image
 
 # 发布的文本
 text=JayJay+抽奖
@@ -13,6 +23,15 @@ text=JayJay+抽奖
 # 图片地址绝对路径
 imagePath=D://1.jpg
 
-# cookie
-cookie=org.springframework.web.servlet.i18n.CookieLocaleResolver.LOCALE=zh-CN; isCancel=true; headerIcon=http://s.rokidcdn.com/account_logo/7A1414DF1F21414A92E929BEAFAB6D60/1714103240258; userName=kleist; Hm_lvt_a1c983f89a92fe2c352a3ce5984a9d66=1717059603; _clck=1jkw3an%7C2%7Cfmz%7C0%7C1561; mobile=15913213996; ROKID_ACCOUNT_SESSION=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NvdW50SWQiOiI3QTE0MTRERjFGMjE0MTRBOTJFOTI5QkVBRkFCNkQ2MCIsImlzcyI6ImF1dGgwIiwidHlwZSI6Im90aGVyIiwidGltZXN0YW1wIjoxNzE5NDc4MDY4Njk1fQ.TrLF9709CQuG6IurVb7A41COVGuNxqODRKOJWHh8KIg; account_id=ZXlKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUo5LmV5SmhZMk52ZFc1MFNXUWlPaUkzUVRFME1UUkVSakZHTWpFME1UUkJPVEpGT1RJNVFrVkJSa0ZDTmtRMk1DSXNJbWx6Y3lJNkltRjFkR2d3SWl3aWRIbHdaU0k2SW05MGFHVnlJaXdpZEdsdFpYTjBZVzF3SWpveE56RTVORGM0TURZNE5qazFmUS5UckxGOTcwOUNRdUc2SXVyVmI3QTQxQ09WR3VOeHFPRFJLT0pXSGg4S0lnQUFBQkJCQ0NDb3RoZXI=; signature=PiUtiwrIOBby24_vsAlXZwImZmD3O8Mpf2aBcJAGZcA=; Hm_lpvt_a1c983f89a92fe2c352a3ce5984a9d66=1719480218; acw_tc=7b39758717194802181795163e49a51657a53fcff936189a2089a5d6a3e270; _clsk=16qsrcy%7C1719481651869%7C2%7C1%7Ct.clarity.ms%2Fcollect
+
+# 文章序号类推，一定要填
+[article2]
+# rokid文章id
+articleId=1381
+
+# 发布的文本
+text=JayJay+抽奖
+
+# 图片地址绝对路径
+imagePath=D://2.png
 
